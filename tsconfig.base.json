@@ -1,0 +1,34 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nx-starter/car-admin/domain": ["libs/car-admin/domain/src/index.ts"],
+      "@nx-starter/car-admin/feature-search-user": [
+        "libs/car-admin/feature-search-user/src/index.ts"
+      ],
+      "@nx-starter/car-app/domain": ["libs/car-app/domain/src/index.ts"],
+      "@nx-starter/car-app/feature-manage": [
+        "libs/car-app/feature-manage/src/index.ts"
+      ],
+      "@nx-starter/car-app/feature-search": [
+        "libs/car-app/feature-search/src/index.ts"
+      ],
+      "@nx-starter/my-lib": ["libs/my-lib/src/index.ts"],
+      "@nx-starter/my-plugin": ["libs/my-plugin/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
