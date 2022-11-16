@@ -2,6 +2,10 @@
   "version": 2,
   "projects": {
     "car-admin": "apps/car-admin",
-    "car-app": "apps/car-app"
+    "car-app": "apps/car-app",
+    "car-app-car-ordering-domain": "libs/car-app/car-ordering/domain",
+    "car-app-car-ordering-feature-manage": "libs/car-app/car-ordering/feature-manage",
+    "car-app-car-ordering-feature-search": "libs/car-app/car-ordering/feature-search",
+    "car-catalog-domain": "libs/car-catalog/domain"
   }
 }
