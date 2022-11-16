@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "carApp",
+            "prefix": "nxStarter",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "car-app",
+            "prefix": "nx-starter",
             "style": "kebab-case"
           }
         ]

@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'car-app-domain',
+  displayName: 'shared-auth-lib',
   preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -9,7 +9,7 @@ export default {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../../coverage/libs/car-app/domain',
+  coverageDirectory: '../../../coverage/libs/shared/auth-lib',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
