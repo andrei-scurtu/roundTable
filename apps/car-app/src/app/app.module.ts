@@ -10,7 +10,6 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     HttpClientModule,
-
     // RouterModule.forRoot([
     //   {
     //     path: '',
@@ -19,15 +18,16 @@ import { HttpClientModule } from '@angular/common/http';
     //   },
     //   {
     //     path: 'search',
-    //     loadChildren: () => import('@nx-starter/car-app/feature-search')
-    //       .then(m => m.CarAppFeatureSearchModule)
+    //     loadChildren: () => import('@nx-starter/car-app/car-ordering/feature-search')
+    //       .then(m => m.CarAppCarOrderingFeatureSearchModule)
     //   },
     //   {
     //     path: 'manage',
-    //     loadChildren: () => import('@nx-starter/car-app/feature-manage')
-    //       .then(m => m.CarAppFeatureManageModule)
+    //     loadChildren: () => import('@nx-starter/car-app/car-ordering/feature-manage')
+    //       .then(m => m.CarAppCarOrderingFeatureManageModule)
     //   },
-    // ])
+    // ]),
+
   ],
   providers: [],
   bootstrap: [AppComponent],
