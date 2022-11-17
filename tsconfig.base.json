@@ -19,6 +19,21 @@
       "@nx-starter/car-admin/feature-search-user": [
         "libs/car-admin/feature-search-user/src/index.ts"
       ],
+      "@nx-starter/car-app/car-catalog/domain": [
+        "libs/car-app/car-catalog/domain/src/index.ts"
+      ],
+      "@nx-starter/car-app/car-catalog/feature-manage": [
+        "libs/car-app/car-catalog/feature-manage/src/index.ts"
+      ],
+      "@nx-starter/car-app/car-catalog/feature-search": [
+        "libs/car-app/car-catalog/feature-search/src/index.ts"
+      ],
+      "@nx-starter/car-app/car-ordering/domain": [
+        "libs/car-app/car-ordering/domain/src/index.ts"
+      ],
+      "@nx-starter/car-app/car-ordering/feature-search": [
+        "libs/car-app/car-ordering/feature-search/src/index.ts"
+      ],
       "@nx-starter/shared/auth-lib": ["libs/shared/auth-lib/src/index.ts"]
     }
   },
