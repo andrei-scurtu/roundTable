@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import {CUSTOM_ELEMENTS_SCHEMA} from "@angular/core";
-import {ManageComponent} from "@nx-starter/car-app/car-catalog/feature-manage";
+import {ManageComponent} from "./manage.component";
 import {HttpClientTestingModule} from "@angular/common/http/testing";
 
 describe('ManageComponent', () => {
