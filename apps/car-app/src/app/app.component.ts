@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AuthLibService } from '@nx-starter/shared/auth-lib';
 
 @Component({
   selector: 'nx-starter-root',
@@ -9,8 +10,8 @@ export class AppComponent {
   title = 'car-app';
 
   constructor(
-    // private authService: AuthLibService
+    private authService: AuthLibService
   ) {
-    // this.authService.login('Max', '');
+    this.authService.login('Max', '');
   }
 }

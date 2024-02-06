@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { CarAppCarCatalogDomainModule } from '@nx-starter/car-app/car-catalog/domain';
+import { CarAppCarCatalogUiCardModule } from '@nx-starter/car-app/car-catalog/ui-card';
 import { SearchComponent } from './search.component';
 
 @NgModule({
   imports: [CommonModule, CarAppCarCatalogDomainModule,
-  RouterModule.forRoot([
+    CarAppCarCatalogUiCardModule,
+  RouterModule.forChild([
     {
       path: '', component: SearchComponent
     }
@@ -16,3 +18,6 @@ import { SearchComponent } from './search.component';
   exports: [SearchComponent],
 })
 export class CarAppCarCatalogFeatureSearchModule {}
+
+
+// as

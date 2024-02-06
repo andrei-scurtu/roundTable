@@ -28,6 +28,9 @@
       "@nx-starter/car-app/car-catalog/feature-search": [
         "libs/car-app/car-catalog/feature-search/src/index.ts"
       ],
+      "@nx-starter/car-app/car-catalog/ui-card": [
+        "libs/car-app/car-catalog/ui-card/src/index.ts"
+      ],
       "@nx-starter/car-app/car-ordering/domain": [
         "libs/car-app/car-ordering/domain/src/index.ts"
       ],

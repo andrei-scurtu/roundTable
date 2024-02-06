@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SearchFacade } from '@nx-starter/car-app/car-ordering/domain';
 
 @Component({
-  selector: 'car-app/car-ordering-search',
+  selector: 'car-app-car-ordering-search',
   templateUrl: './search.component.html',
   styleUrls: ['./search.component.scss'],
 })

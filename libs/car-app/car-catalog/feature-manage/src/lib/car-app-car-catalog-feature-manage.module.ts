@@ -6,7 +6,7 @@ import { ManageComponent } from './manage.component';
 
 @NgModule({
   imports: [CommonModule, CarAppCarCatalogDomainModule,
-    RouterModule.forRoot([
+    RouterModule.forChild([
       {
         path: '', component: ManageComponent
       }
