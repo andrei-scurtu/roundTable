@@ -22,11 +22,11 @@ import { HttpClientModule } from '@angular/common/http';
         loadChildren: () => import('@nx-starter/car-app/car-catalog/feature-search')
           .then(m => m.CarAppCarCatalogFeatureSearchModule)
       },
-      {
-        path: 'manage',
-        loadChildren: () => import('@nx-starter/car-app/car-catalog/feature-manage')
-          .then(m => m.CarAppCarCatalogFeatureManageModule)
-      },
+      // {
+      //   path: 'manage',
+      //   loadChildren: () => import('@nx-starter/car-app/car-catalog/feature-manage')
+      //     .then(m => m.CarAppCarCatalogFeatureManageModule)
+      // },
     ]),
   ],
   providers: [],
