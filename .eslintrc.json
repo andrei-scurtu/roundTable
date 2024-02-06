@@ -23,7 +23,6 @@
                 "sourceTag": "domain:car-app",
                 "onlyDependOnLibsWithTags": [
                   "domain:car-catalog",
-                  "domain:car-ordering",
                   "domain:shared"]
               },
               {
@@ -71,13 +70,6 @@
                   "domain:shared"
                 ]
               },
-              {
-                "sourceTag": "domain:car-ordering",
-                "onlyDependOnLibsWithTags": [
-                  "domain:car-ordering",
-                  "domain:shared"
-                ]
-              }
             ]
           }
         ]
