@@ -24,8 +24,7 @@
                 "onlyDependOnLibsWithTags": [
                   "domain:car-catalog",
                   "domain:car-ordering",
-                  "domain:shared"
-                ]
+                  "domain:shared"]
               },
               {
                 "sourceTag": "type:app",
@@ -48,7 +47,7 @@
               {
                 "sourceTag": "type:feature",
                 "onlyDependOnLibsWithTags": [
-                  "type:ui",
+//                  "type:ui",
                   "type:domain-logic",
                   "type:util"
                 ]
