@@ -8,7 +8,7 @@
     "postinstall": "node ./decorate-angular-cli.js",
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test",
+    "test": "nx test car-app && nx test car-app-car-catalog-feature-manage && nx test car-app-car-catalog-feature-search",
     "affected:apps": "nx affected:apps",
     "affected:libs": "nx affected:libs",
     "affected:build": "nx affected:build",
