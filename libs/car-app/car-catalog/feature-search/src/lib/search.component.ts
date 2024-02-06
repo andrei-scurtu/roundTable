@@ -17,5 +17,6 @@ export class SearchComponent implements OnInit {
 
   load(): void {
     this.searchFacade.load();
+
   }
 }
